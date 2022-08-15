@@ -9,14 +9,15 @@
                 "awsaccount-id": "912234532719",
                 "security-package": true,
                 "created-date": 1635791417843,
-                "last-notified-date": 1655242707561,
-                "last-checked-date": 1655242707206,
+                "last-notified-date": 1658397176744,
+                "last-checked-date": 1658397176341,
                 "last-monitoring-event-date": 1651613296000,
-                "access": null,
-                "tags": null,
+                "tags": [
+                    "Production"
+                ],
                 "cloud-type": "aws",
                 "managed-group-id": "7b9a55a3-96b2-4dfa-9caf-0757710c9094",
-                "resources-count": 5380,
+                "resources-count": 5633,
                 "consumption-tier": "Large: 5000+ resources"
             },
             "relationships": {
@@ -36,10 +37,9 @@
                 "environment": "Testing ",
                 "security-package": true,
                 "created-date": 1625676202931,
-                "last-notified-date": 1655241087771,
-                "last-checked-date": 1655241087372,
-                "last-monitoring-event-date": 1655241058522,
-                "access": null,
+                "last-notified-date": 1657207462404,
+                "last-checked-date": 1657207462012,
+                "last-monitoring-event-date": 1658395874279,
                 "tags": [
                     "Azure Group"
                 ],
@@ -50,7 +50,7 @@
                     }
                 },
                 "managed-group-id": "c62d8360-1fb0-429a-8392-97d3ece91abd",
-                "resources-count": 257,
+                "resources-count": 262,
                 "consumption-tier": "Small: 250-999 resources"
             },
             "relationships": {
@@ -69,9 +69,8 @@
                 "name": "Project-SalemTest",
                 "security-package": true,
                 "created-date": 1649961195702,
-                "last-notified-date": 1655243466714,
-                "last-checked-date": 1655243466294,
-                "access": null,
+                "last-notified-date": 1658400305970,
+                "last-checked-date": 1658400305583,
                 "tags": [
                     "GCP Projects"
                 ],
@@ -97,15 +96,43 @@
         },
         {
             "type": "accounts",
+            "id": "ad85a5c8-4585-44ce-9bdb-625dbdf0b71a",
+            "attributes": {
+                "name": "Salem - Personal",
+                "environment": "Dev",
+                "awsaccount-id": "352773626266",
+                "security-package": true,
+                "created-date": 1657814725838,
+                "last-notified-date": 1658404623653,
+                "last-checked-date": 1658404623099,
+                "last-monitoring-event-date": 1657903408000,
+                "tags": [
+                    "Dev"
+                ],
+                "cloud-type": "aws",
+                "managed-group-id": "7b9a55a3-96b2-4dfa-9caf-0757710c9094",
+                "resources-count": 211,
+                "consumption-tier": "<250 resources"
+            },
+            "relationships": {
+                "organisation": {
+                    "data": {
+                        "type": "organisations",
+                        "id": "OobRNbEd"
+                    }
+                }
+            }
+        },
+        {
+            "type": "accounts",
             "id": "857bb380-8e74-4398-b88f-9b4f1e196c2f",
             "attributes": {
                 "name": "HW-Python1",
                 "environment": null,
                 "security-package": true,
                 "created-date": 1641506554193,
-                "last-notified-date": 1655239987779,
-                "last-checked-date": 1655239987384,
-                "access": null,
+                "last-notified-date": 1658405302269,
+                "last-checked-date": 1658405301803,
                 "tags": [
                     "GCP Projects"
                 ],
@@ -119,37 +146,6 @@
                 "managed-group-id": "089fdaa9-6c07-4e02-aae5-ad3eee9b3672",
                 "resources-count": 0,
                 "consumption-tier": "-"
-            },
-            "relationships": {
-                "organisation": {
-                    "data": {
-                        "type": "organisations",
-                        "id": "OobRNbEd"
-                    }
-                }
-            }
-        },
-        {
-            "type": "accounts",
-            "id": "1183e2f7-e0fa-4bc3-8285-16ed903e332f",
-            "attributes": {
-                "name": "Salem-AWS",
-                "environment": "Personal",
-                "awsaccount-id": "352773626266",
-                "security-package": true,
-                "created-date": 1646066388263,
-                "last-notified-date": 1655240945051,
-                "last-checked-date": 1655240944291,
-                "last-monitoring-event-date": 1654702449000,
-                "access": null,
-                "tags": [
-                    "AWS Group",
-                    "Personal"
-                ],
-                "cloud-type": "aws",
-                "managed-group-id": "7b9a55a3-96b2-4dfa-9caf-0757710c9094",
-                "resources-count": 209,
-                "consumption-tier": "<250 resources"
             },
             "relationships": {
                 "organisation": {

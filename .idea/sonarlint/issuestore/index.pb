@@ -1,17 +1,19 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-=
-response.json,e\6\e6d536c834eea55d3b23232379b301b97fef2cb4
-9
-	rules.txt,1\6\160dbb7947bec2b35d722d7d275b5d9270225daa
-\
-,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
-S
-#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+J
+Conformity/readaccounts.py,9\1\91c32ecbe92e8affd74b819136b5bfc53ca2555b
+b
+2pythonProject2/.idea/sonarlint/issuestore/index.pb,4\4\449d079f7c7f86d184269e76a687a844f9cbb0cd
+m
+=pythonProject2/.idea/inspectionProfiles/profiles_settings.xml,f\8\f854eaff3fdd820d3e0f22926846f96ea05f57b9
+F
+pythonProject2/main.py,d\5\d5e44cd014c2e443d872ba7e67918a3b71050bb2
+H
+pythonProject2/.dcignore,a\f\af4c06b5513ad822cb4ef8f86686a22699243094
+H
+Conformity/response.json,e\c\ece85dc2fba6c4f0c772d139cf0709ac68ad26fe
 9
 	.dcignore,7\7\7791000a9a93019a87d67e0b676c86447ba29c67
-^
-..idea/inspectionProfiles/profiles_settings.xml,1\e\1e9075f5bf079c01ef2c910709e91a497d262080
-?
-ServiceRules.py,b\b\bb25e51c91d6fe9a6f0647a2329b7824d53cd107
+G
+Training/addnumbeers.py,7\5\755423aaf8df2072312a7573622e44593aceb50d
+D
+Training/datetime.py,1\6\169b877ae7aeca6d5376c7e9f83f31f5331caaeb

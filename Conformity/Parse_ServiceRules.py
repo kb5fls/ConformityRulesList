@@ -15,10 +15,10 @@ with open('rules.txt', 'w') as r:
 
     for x in data:
         if (x['provider'] == "gcp" or x['provider'] == 'aws'):
-            print("Rule ID: ", x['id'], "\n", "Rule Title: ", x['title'], "\n", "Rule Category: ", "\n",
+            print("Rule ID: ", x['id'], "\n", "Rule Title: ", x['title'], "\n", "Rule Category: ", x['categories'], "\n",
               "Cloud Provider: ", x['provider'], "\n\n")
 
 sys.stdout = original_stdout
 
-
+print
 
