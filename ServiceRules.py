@@ -4,7 +4,12 @@ import os
 import tarfile
 import sys
 
-# This script will extract all Cloud Conformity rules supported for AWS, Azure, and GCP
+# Author: Philip Salem
+'''
+This script will extract all Cloud Conformity rules supported for AWS, Azure, and GCP
+then will create a rules.txt file logging every rule including the Rule ID, Rule Title,
+Rule Category, and the Cloud Provider the rule belongs to. 
+'''
 
 # API key is configured as env variable for Windows OS.
 apikey = os.environ.get('API_KEY')
