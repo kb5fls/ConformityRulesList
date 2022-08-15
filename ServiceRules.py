@@ -40,9 +40,19 @@ with open('rules.txt', 'w') as r:
     sys.stdout = r
     data = json_load['included']
 
+
     for x in data:
         if x['provider'] == 'gcp' or x['provider'] == 'aws' or x['provider'] == 'azure':
             print("Rule ID: ", x['id'], "\n", "Rule Title: ", x['title'], "\n", "Rule Category: ", x['categories'], "\n",
               "Cloud Provider: ", x['provider'], "\n\n")
 
-sys.stdout = original_stdout
+'''
+JSON data containts square [, ], and '
+The code below removes characters from rules.txt file and writes the final output to rules-list.txt 
+and then deletes the temporary rules.txt file
+'''
+with open('rules.txt', 'r') as infile, open('rules-list.txt', 'w') as outfile:
+        temp = infile.read().replace("[", "").replace("]", "").replace("'", "")
+        outfile.write(temp)
+
+os.remove("rules.txt")
