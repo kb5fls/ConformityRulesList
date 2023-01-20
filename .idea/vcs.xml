@@ -2,8 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/TestRepo" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/TestRepo/TestClone" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/TestRepo/TestRepo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Clone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ConformityRulesList" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TestRepo/ConformityRulesList" vcs="Git" />
   </component>
 </project>

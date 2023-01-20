@@ -29,9 +29,9 @@ with open('service_rules.json', 'w') as json_file:
 # Parse rules from service_rules.json file and then writes those rules to rules.txt
 with open('service_rules.json', 'r') as json_file:
     json_load = json.load(json_file)
-# print(json_load['web']['languages']['id'])
+
 original_stdout = sys.stdout
-with open('rules.txt', 'w') as r:
+with open('../TestFiles/rules.txt', 'w') as r:
     sys.stdout = r
     data = json_load['included']
 
