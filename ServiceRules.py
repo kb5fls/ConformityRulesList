@@ -43,8 +43,9 @@ with open('rules.txt', 'w') as r:
 
     for x in data:
         if x['provider'] == 'gcp' or x['provider'] == 'aws' or x['provider'] == 'azure':
-            print("Rule ID: ", x['id'], "\n", "Rule Title: ", x['title'], "\n", "Rule Category: ", x['categories'], "\n",
-              "Cloud Provider: ", x['provider'], "\n\n")
+            print("Rule ID: ", x['id'], "\n", "Rule Title: ", x['title'], "\n", "Rule Category: ", x['categories'],
+                  "\n",
+                  "Cloud Provider: ", x['provider'], '\n', "Compliance: ", x['compliances'], "\n\n")
 
 '''
 JSON data containts square [, ], and '
@@ -56,3 +57,4 @@ with open('rules.txt', 'r') as infile, open('rules-list.txt', 'w') as outfile:
         outfile.write(temp)
 
 os.remove("rules.txt")
+sys.stdout = original_stdout
