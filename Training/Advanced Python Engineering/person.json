@@ -1,0 +1,12 @@
+{
+    "fname":"Philip";
+    "lname":"Salem";
+    "age":48;
+    "city":"Fate";
+    "hasChildren":true;
+    "titles":[
+        "engineer";
+        "cyber security";
+        "cloud security"
+    ]
+}

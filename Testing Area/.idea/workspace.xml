@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="237a0f1f-0387-4abc-8b50-3e7c565254a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/0/a/0ad8031b5e63ea598418c736910c5466ba9ff146" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/0/a/0af45984b618da9d08be0749a35bb258f7d466ad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/1/6/16ad6ae41eb70a1fc7f3236b6107f23803b3f998" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/1/6/16cbb6ec23bfee4bf4b7b772c50d161bde3d82af" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/1/e/1e9075f5bf079c01ef2c910709e91a497d262080" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/2/e/2ec93cabbbb92a496a8a30057d5f993e3114b547" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/3/8/38f93cb5fcc1f71cd2ccfd1773bccba46144a709" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/6/2/62fa0710d04ad7d140d2d03f06a2aabfb0106752" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/8/5/85568c237ce6d50abeb8e985c930224e8a22ef79" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/8/b/8b7288a3fde9f9f366240efddb10f57467d7c00c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/8/f/8f0989827c78cb393aa37ae6b6ade010f68ddc66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/a/7/a71981ce4df08b91e955db7b576a898bb3127d99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/b/f/bf94df09e579bd3ed41b15d3d410e2bb4fb1d1b9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/c/4/c4fa50c27ea3ca0737f2b28fef93e57f09e9e21f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/c/a/cabc8fe4b8d4d694ad161b5aa9d65a956111bc3e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/d/6/d636adcdc5545ad9047c2d414f826a51a057272c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/e/b/eb301cf616a77c5729f26b79461910afe55e2ea5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/f/a/fa1490cb4c56cdedc5412ae4368d03a43fb3c8b4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conformity/GCP Scripts/code-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conformity/GCP Scripts/enable-api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepSecurityAutomation/DSProject/.idea/DSProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Training/.idea/Training.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/PycharmProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conformity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conformity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conformity/Parse_ServiceRules.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Conformity/Parse_ServiceRules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conformity/ServiceRules.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Conformity/ServiceRules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.dcignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/pythonProject2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/sonarlint/issuestore/f/1/f1bdda93d9a278e358509d498e17d97764c1fb29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2HMNME4Edenwf9egbQkysjMt555" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.google.cloudcode.ide_session_index" value="20221110_0000" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="237a0f1f-0387-4abc-8b50-3e7c565254a6" name="Changes" comment="" />
+      <created>1668090943740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668090943740</updated>
+    </task>
+    <servers />
+  </component>
+</project>
