@@ -48,7 +48,7 @@ with open('rules.txt', 'w') as r:
                   "Cloud Provider: ", x['provider'], '\n', "Compliance: ", x['compliances'], "\n\n")
 
 '''
-JSON data containts square [, ], and '
+JSON data contains square [, ], and '
 The code below removes characters from rules.txt file and writes the final output to rules-list.txt 
 and then deletes the temporary rules.txt file
 '''
