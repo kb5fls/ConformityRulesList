@@ -5,9 +5,13 @@ Creates a Rules.txt file that lists associated Rule ID, Rule Title, Rule Categor
 **Example Format** 
 
 Rule ID:  EC2-059 
- Rule Title:  Descriptions for Security Group Rules 
- Rule Category:  security, operational-excellence 
- Cloud Provider:  aws 
- Compliance:  AWAF, CIS-V8, NIST5, AGISM, HITRUST, PCI, MAS, CSA, FISC-V9 
+
+Rule Title:  Descriptions for Security Group Rules
+
+Rule Category:  security, operational-excellence 
+
+Cloud Provider:  aws
+
+Compliance:  AWAF, CIS-V8, NIST5, AGISM, HITRUST, PCI, MAS, CSA, FISC-V9 
 
  
