@@ -5,9 +5,7 @@ The script creates a rules.txt file that lists associated Rule ID, Rule Title, R
 
 The script is written with the API key set as an environmental variable on your Windows systems. 
 
-You will have to change that to match your needs. 
-
-See example format below.
+You will have to change that to match your needs.
 
 **Example Format** 
 
