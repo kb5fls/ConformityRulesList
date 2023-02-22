@@ -56,4 +56,5 @@ with open('rules.txt', 'r') as infile, open('rules-list.csv', 'w') as outfile:
         outfile.write(temp)
 
 os.remove("rules.txt")
+os.remove("service_rules.json")
 sys.stdout = original_stdout
