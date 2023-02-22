@@ -1,7 +1,6 @@
 import requests
 import json
 import os
-# import tarfile
 import sys
 
 # Author: Philip Salem
@@ -49,7 +48,7 @@ with open('rules.txt', 'w') as r:
 
 '''
 JSON data contains square [, ], and '
-The code below removes characters from rules.txt file and writes the final output to rules-list.txt 
+The code below removes characters from rules.txt file and writes the final output to rules-list.csv
 and then deletes the temporary rules.txt file
 '''
 with open('rules.txt', 'r') as infile, open('rules-list.csv', 'w') as outfile:
