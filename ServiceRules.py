@@ -2,6 +2,11 @@ import requests
 import json
 import os
 import sys
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
 
 # Author: Philip Salem
 '''
@@ -12,8 +17,8 @@ Rule Category, and the Cloud Provider the rule belongs to.
 
 # API key is configured as env variable for Windows OS.
 apikey = os.environ.get('API_KEY')
-# print(apikey)
-url = "https://us-west-2-api.cloudconformity.com/v1/services"
+
+url = "https://conformity.trend-us-1.cloudone.trendmicro.com/api/services"
 
 payload = {}
 headers = {

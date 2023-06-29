@@ -1,1 +1,6 @@
 /Misc. Files/
+ConformityRulesList.iml
+misc.xml
+# Environment
+.env
+.gitignore
