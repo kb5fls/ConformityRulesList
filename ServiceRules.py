@@ -1,21 +1,11 @@
 import requests
-import json
 import os
 import sys
 from dotenv import load_dotenv
 
 load_dotenv()
 
-
-
-# Author: Philip Salem
-'''
-This script will extract all Cloud Conformity rules supported for AWS, Azure, and GCP
-then will create a rules.txt file logging every rule including the Rule ID, Rule Title,
-Rule Category, and the Cloud Provider the rule belongs to. 
-'''
-
-# API key is configured as env variable for Windows OS.
+# Input your API key how you see fit
 apikey = os.environ.get('API_KEY')
 
 url = "https://conformity.trend-us-1.cloudone.trendmicro.com/api/services"
@@ -26,24 +16,14 @@ headers = {
     'Authorization': f'ApiKey {apikey}'
 }
 
+# GET request from API that opens the URL response = requests.get(url, headers=headers, data=payload)
+response = requests.get(url, headers=headers, data=payload, verify = True)
 
-response = requests.get(url, headers=headers, data=payload)
+rules_data = response.json()
 
-acct_data = response.json()
-
-# Creates service_rules.json file to hold rules list in JSON format.
-with open('service_rules.json', 'w') as json_file:
-    json.dump(acct_data, json_file, indent=4)
-
-# Parse rules from service_rules.json file and then writes those rules to rules.txt
-with open('service_rules.json', 'r') as json_file:
-    json_load = json.load(json_file)
-# print(json_load['web']['languages']['id'])
-original_stdout = sys.stdout
 with open('rules.txt', 'w') as r:
     sys.stdout = r
-    data = json_load['included']
-
+    data = rules_data['included']
 
     for x in data:
         if x['provider'] == 'gcp' or x['provider'] == 'aws' or x['provider'] == 'azure':
@@ -51,15 +31,11 @@ with open('rules.txt', 'w') as r:
                   "\n",
                   "Cloud Provider: ", x['provider'], '\n', "Compliance: ", x['compliances'], "\n\n")
 
-'''
-JSON data contains square [, ], and '
-The code below removes characters from rules.txt file and writes the final output to rules-list.csv
-and then deletes the temporary rules.txt file
-'''
-with open('rules.txt', 'r') as infile, open('rules-list.csv', 'w') as outfile:
-        temp = infile.read().replace("[", "").replace("]", "").replace("'", "")
-        outfile.write(temp)
 
+# Removes special characters and writes data to rules.csv file.
+with open('rules.txt', 'r') as infile, open('rules.csv', 'a') as outfile:
+     temp = infile.read().replace("[", "").replace("]", "").replace("'", "").replace('"', "")
+     outfile.write(temp)
+
+# Removes file after creating CSV file without special characters.
 os.remove("rules.txt")
-os.remove("service_rules.json")
-sys.stdout = original_stdout
