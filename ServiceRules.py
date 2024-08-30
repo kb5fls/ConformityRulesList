@@ -20,6 +20,7 @@ Rule Category, and the Cloud Provider the rule belongs to.
 
 apikey = config.api_key
 
+# Change this URL to the region your Cloud One or Vision One account is such as US-1. 
 url = "https://conformity.trend-us-1.cloudone.trendmicro.com/api/services"
 
 payload = {}
